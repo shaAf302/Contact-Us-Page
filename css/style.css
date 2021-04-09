@@ -1,0 +1,118 @@
+/* css here for some components */
+/* red round button to add a  new contact */
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-circle.btn-xl { 
+    width: 60px; 
+    height: 60px;
+    margin: 0px; 
+    padding: 5px 16px; 
+    border-radius: 35px; 
+    font-size: 25px; 
+    text-align: center; 
+    position:sticky;
+}
+.btn-xl a{
+    align-items: center;
+}
+.btn:active{
+    box-shadow: 0 0 ;
+}
+/* horizontal line in the middle of Letters  */
+hr {
+  display:block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 47%;
+  margin-right: 47%;
+  border-style:solid;
+  border-width: 1px;
+  color: rgb(253, 0, 0);
+}
+/* series of letter */
+ .pagination {
+    margin: 20px 20px;
+    overflow: hidden;
+    position: relative;
+ }  
+.pagination li {
+    float: left;
+    text-decoration: none;
+}
+.pagination ul {
+    float: left;
+    left: 35%;
+    position: relative;
+    text-decoration: none;
+}
+
+.pagination li  {
+    transition: all 100ms ease-in-out 0s;
+     background-color: #F7F7F8; 
+    border-radius: 5px 5px 5px 5px;
+    color:black;
+    display:block;
+    font: 50px/40px;
+    /* font-style:normal; */
+    font-weight: bold;
+    height: 30px;
+    margin: 3px 3px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+    background-color: white;
+}
+/* extra small devices */
+@media only screen and (max-width: 458px) {
+    .pagination ul {
+    float: left;
+    left: 12%;
+    position: relative;
+    text-decoration: none;
+}
+  
+}
+/* Small devices  */
+@media only screen and (min-width: 468px) {
+    .pagination ul {
+    float: left;
+    left: 21%;
+    position: relative;
+    text-decoration: none;
+}
+}
+
+/* Medium devices  */
+@media only screen and (min-width: 768px) {
+    .pagination ul {
+    float: left;
+    left: 28%;
+    position: relative;
+    text-decoration: none;
+}
+}
+
+/* Large devices  */
+@media only screen and (min-width: 992px) {
+    .pagination ul {
+    float: left;
+    left: 35%;
+    position: relative;
+    text-decoration: none;
+}
+} 
+
+/* Extra large devices */
+@media only screen and (min-width: 1200px) {
+    .pagination ul {
+    float: left;
+    left: 37%;
+    position: relative;
+    text-decoration: none;
+}
+}
